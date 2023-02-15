@@ -1,0 +1,26 @@
+{
+	"Name": "SpringArmPlugin",
+	"Version": "1.0",
+	"Company": "PrecisionRender",
+	"Copyright": "Copyright © 2023 PrecisionRender. All rights reserved.",
+	"GameTarget": "SpringArmPluginTarget",
+	"EditorTarget": "SpringArmPluginEditorTarget",
+	"References": [
+		{
+			"Name": "$(EnginePath)/Flax.flaxproj"
+		}
+	],
+	"DefaultSceneSpawn": {
+		"Position": {
+			"X": 0.0,
+			"Y": 0.0,
+			"Z": 0.0
+		},
+		"Direction": {
+			"X": 0.0,
+			"Y": 0.0,
+			"Z": 1.0
+		}
+	},
+	"MinEngineVersion": "1.5.6336"
+}
