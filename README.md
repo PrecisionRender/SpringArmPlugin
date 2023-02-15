@@ -1,6 +1,11 @@
 # Spring Arm Plugin for Flax Engine
 A tool that prevents Actors from clipping into colliders. One common use case for a spring arm is to prevent cameras from becoming obstructed by walls.
 
+
+https://user-images.githubusercontent.com/89754713/219168720-d4ddd090-e03a-4443-9a2d-eec1ddc98ff4.mp4
+
+
+
 ## Installation
 
 For more details, see [how to install a plugin](https://docs.flaxengine.com/manual/scripting/plugins/plugin-project.html) in the Flax Engine documentation.
