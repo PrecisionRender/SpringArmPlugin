@@ -27,6 +27,7 @@ public override void Setup(BuildOptions options)
 {
     base.Setup(options);
     
+    // Add the SpringArmPlugin to the private dependencies of the Game.
     options.PrivateDependencies.Add("SpringArmPlugin");
 }
 ```
