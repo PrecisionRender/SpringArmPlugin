@@ -40,7 +40,18 @@ For easier access to the API, you can also reference the `SpringArmPlugin` names
 using SpringArmPlugin;
 ```
 
-Now, the SpringArm plugin should be ready to go!
+Now, the SpringArm plugin should be ready to go! You can use the `SpringArm` like any other Actor in Flax:
+```cs
+SpringArm _springArm;
+
+/// <inheritdoc/>
+public override void OnStart()
+{
+    _springArm = Actor.As<SpringArm>();
+    _springArm.ArmLength = 600;
+
+}
+```
 
 ## Usage
 
