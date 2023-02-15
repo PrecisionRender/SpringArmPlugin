@@ -40,7 +40,11 @@ For easier access to the API, you can also reference the `SpringArmPlugin` names
 using SpringArmPlugin;
 ```
 
-Now, the SpringArm plugin should be ready to go! You can use the `SpringArm` like any other Actor in Flax:
+Now, the SpringArm plugin should be ready to go!
+
+## Usage
+
+The `SpringArm` works by shooting a physics cast along its backwards direction. If the cast collides with anything, all of the arm's children are moved to the closest point away from the collision. The `SpringArm` is implemented as an Actor that can be added to the scene in the same way as any other Actor in Flax Engine. You can find it by right clicking your Scene window and going to `New/Physics/Spring Arm` or in the Toolbox window under the `Physics` tab. You can use the `SpringArm` like any other Actor in Flax:
 ```cs
 SpringArm _springArm;
 
@@ -52,10 +56,6 @@ public override void OnStart()
 
 }
 ```
-
-## Usage
-
-The `SpringArm` works by shooting a physics cast along its backwards direction. If the cast collides with anything, all of the arm's children are moved to the closest point away from the collision. The `SpringArm` is implemented as an Actor that can be added to the scene in the same way as any other Actor in Flax Engine. You can find it by right clicking your Scene window and going to `New/Physics/Spring Arm` or in the Toolbox window under the `Physics` tab.
 
 ## API
 
