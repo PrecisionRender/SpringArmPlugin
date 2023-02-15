@@ -69,4 +69,4 @@ The entire API for the `SpringArm` is documented in XML.
 
 ## License
 
-This plugin and its source code are available under the [zlib liscence](https://opensource.org/license/zlib-license-php/).
+This plugin and its source code are available under the [Zlib liscence](https://opensource.org/license/zlib-license-php/).
