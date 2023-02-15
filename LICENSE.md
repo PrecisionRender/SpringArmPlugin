@@ -1,4 +1,4 @@
-Copyright (c) 2023 PrecisionRender. All rights reserved.
+Copyright © 2023 PrecisionRender. All rights reserved.
 
 This software is provided 'as-is', without any express or implied
 warranty. In no event will the authors be held liable for any damages
