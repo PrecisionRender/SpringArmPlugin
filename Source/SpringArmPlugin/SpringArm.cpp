@@ -4,7 +4,6 @@
 #include "Engine/Debug/DebugDraw.h"
 #include "Engine/Level/Scene/Scene.h"
 #include "Engine/Physics/Physics.h"
-#include "Engine/Debug/DebugLog.h"
 
 SpringArm::SpringArm(const SpawnParams& params)
     : Actor(params)
