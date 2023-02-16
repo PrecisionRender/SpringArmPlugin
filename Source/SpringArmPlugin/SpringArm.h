@@ -67,12 +67,11 @@ private:
 	void PlaceChildrenAlongSpring(const float& distance);
 
 public:
+	// [Actor]
+	void BeginPlay(SceneBeginData* data) override;
+	void OnEnable() override;
+	void OnDisable() override;
 #if USE_EDITOR
 	void OnDebugDrawSelected() override;
 #endif
-
-    // [Actor]
-    void BeginPlay(SceneBeginData* data) override;
-    void OnEnable() override;
-    void OnDisable() override;
 };
