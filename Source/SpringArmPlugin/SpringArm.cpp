@@ -46,7 +46,6 @@ void SpringArm::PlaceChildrenAlongSpring(const float& distance)
     {
         GetChild(i)->SetPosition(GetPosition() + GetTransform().GetBackward() * distance);
         GetChild(i)->SetLocalPosition(GetChild(i)->GetLocalPosition() + PositionOffset);
-
     }
 }
 
