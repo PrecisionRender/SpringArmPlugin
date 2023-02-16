@@ -69,7 +69,6 @@ private:
 public:
 #if USE_EDITOR
 	void OnDebugDrawSelected() override;
-
 #endif
 
     // [Actor]
