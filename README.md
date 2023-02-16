@@ -38,7 +38,7 @@ public override void Setup(BuildOptions options)
     options.PrivateDependencies.Add("SpringArmPlugin");
 }
 ```
-Since the plugin is written in C++, you'll also need to build the `SpringArmPlugin` project so that the C# glue is generated, if you plan on using the spring arm with c# scripts. To do so in Visual Studio, open a script in your project, and go to the `Solution Explorer`: 
+Since the plugin is written in C++, you'll also need to build the `SpringArmPlugin` project so that the C# glue is generated, if you plan on using the spring arm with C# scripts. To do so in Visual Studio, open a script in your project, and go to the `Solution Explorer`: 
 
 ![image](https://user-images.githubusercontent.com/89754713/219164476-f2395ae4-4d2e-4777-a3f6-49587afa9ed8.png)
 
